@@ -1,0 +1,29 @@
+{
+    "products":[
+        {
+            "name":"Updraft",
+            "price":"150 Credits",
+            "description":"Confuse your enemies by soaring off into the skies! Using the vertical prowess provided by this ability, you'll be able to move around like never before!"
+        },
+        {
+            "name":"Cloudburst",
+            "price":"200 Credits",
+            "description":"Are you being held back by those around you? Need a tool to get you ahead? Block sightlines and sneak around with this powerful ability! Cloudburst uses the latest technology by amplifying the natural power of fog to reduce visibility."
+        },
+        {
+            "name":"Bladestorm",
+            "price":"7 Ultimate Points",
+            "description":"Unlocked by persisting in combat, the Bladestorm gives you access to five blades that you can launch with the flick of a wrist. One of our most difficult item, the Bladestorm is reccommended for only the most seasoned of professionals. Do you think you have what it takes?"
+        },
+        {
+            "name":"Operator",
+            "price":"4700 Credits",
+            "description":"The most powerful weapon sold on the market, the Operator is a fan favourite to those that use it, and something to fear for those on the other end. We reccommend this item for only the most skilled of Jett players."
+        },
+        {
+            "name":"Shorty",
+            "price":"200 Credits",
+            "description":"Leave your enemies fuming with this high-powered pocket shotgun! The Shorty is the ultimate weapon to disrespect your opponents with — if you land your shot, the only thing they have to blame... is themselves."
+        }
+    ]
+}
