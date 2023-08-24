@@ -7,7 +7,7 @@
 function MainNavigationBar({className})
 {
     return(
-        <nav class={className}>
+        <nav className={className}>
             <ul>
                 <li><a href="javascript:;">Home</a></li>
                 <li><a href="javascript:;">Products</a></li>
