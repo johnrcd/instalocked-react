@@ -1,10 +1,18 @@
-function Product(props)
+/**
+ * Displays information about a product.
+ * 
+ * @param {string} name The name of the product.
+ * @param {string} price The price of the product. This should also include the currency being
+ * used.
+ * @param {string} description Information about the product. Can also be used as flavor text.
+ */
+function Product({name, price, description})
 {
     return (
-        <div class="productContainer">
-            <h2 class="productName">{props.name}</h2>
-            <h3 class="productPrice">{props.price}</h3>
-            <p class="productDescription">{props.description}</p>
+        <div className="productContainer">
+            <h2 className="productName">{name}</h2>
+            <h3 className="productPrice">{price}</h3>
+            <p className="productDescription">{description}</p>
         </div>
     );
 }

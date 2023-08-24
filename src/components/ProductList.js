@@ -1,11 +1,37 @@
-function ProductList(props)
+import Product from './Product.js';
+
+/**
+ * Generates an unordered list of products.
+ * 
+ * @param {Array<Product>} products The list of products.
+ */
+function ProductList({products})
 {
-    let output;
-    for(i = 0; i > props.products.length; i++)
+    if (products != undefined)
     {
-        output += <Product props={props.products[i]}></Product>
+        return(
+            <div className="productList">
+                <ul>
+                {
+                    // i don't really understand how this works
+                    // see reference: https://stackoverflow.com/a/65849307
+                    products.map(
+                        data =>
+                        <li key={"productList_" + data.name}>
+                            <Product
+                                name={data.name}
+                                price={data.price}
+                                description={data.description}
+                            ></Product>
+                            </li>
+                        )
+                }
+                </ul>
+            </div>
+            
+        );
     }
-    return <div class="productList">{output}</div>;
+    else return <></>;
 }
 
 export default ProductList;
