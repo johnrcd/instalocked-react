@@ -11,11 +11,11 @@
 function Product({name, price, description, icon, alt})
 {
     return (
-        <div className="productContainer">
-            <img className="productIcon" src={icon} alt={alt}></img>
-            <h2 className="productName">{name}</h2>
-            <h3 className="productPrice">{price}</h3>
-            <p className="productDescription">{description}</p>
+        <div className="product">
+            <img src={icon} alt={alt}></img>
+            <h2>{name}</h2>
+            <h3>{price}</h3>
+            <p>{description}</p>
         </div>
     );
 }
