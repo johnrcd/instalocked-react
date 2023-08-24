@@ -3,7 +3,7 @@
  */
 function Banner(){
     return(
-        <div class="banner">
+        <div className="banner">
             <h1>Instalocked Inc.</h1>
             <img src="/images/company_logo.png" alt="Company logo of Instalocked Inc" />
         </div>

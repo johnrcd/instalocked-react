@@ -9,9 +9,9 @@ import Banner from "./Banner";
 function Header()
 {
     return(
-        <header>
+        <header className="pageHeader">
             <Banner></Banner>
-            <MainNavigationBar class="topNavigationBar"></MainNavigationBar>
+            <MainNavigationBar className="topNavigationBar"></MainNavigationBar>
         </header>
     );
 }
