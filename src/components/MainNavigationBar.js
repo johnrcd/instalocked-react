@@ -1,3 +1,4 @@
+import { Outlet, Link } from "react-router-dom";
 
 /**
  * Navigation bar with the top level elements of the web page.
@@ -7,13 +8,16 @@
 function MainNavigationBar({className})
 {
     return(
-        <nav className={className}>
-            <ul>
-                <li><a href="javascript:;">Home</a></li>
-                <li><a href="javascript:;">Products</a></li>
-                <li><a href="javascript:;">Contact</a></li>
-            </ul>
-        </nav>
+        <>
+            <nav className={className}>
+                <ul>
+                    <li><Link to="/">Home</Link></li>
+                    <li><Link to="/products">Products</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
+                </ul>
+            </nav>
+            <Outlet />
+        </>
     );
 }
 
