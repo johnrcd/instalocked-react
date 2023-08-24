@@ -1,8 +1,7 @@
 import './App.css';
-import ProductList from './components/ProductList';
 import ProductListContainer from './containers/ProductListContainer';
 import Header from './components/Header';
-import products from './data/products.json';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -10,6 +9,7 @@ function App() {
       <div id="pageWrapper">
         <Header></Header>
         <ProductListContainer></ProductListContainer>
+        <Footer></Footer>
       </div>
     </div>
   );
