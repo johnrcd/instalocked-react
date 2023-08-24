@@ -22,6 +22,8 @@ function ProductList({products})
                                 name={data.name}
                                 price={data.price}
                                 description={data.description}
+                                icon={data.icon}
+                                alt={data.alt}
                             ></Product>
                             </li>
                         )

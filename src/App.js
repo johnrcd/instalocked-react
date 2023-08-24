@@ -6,8 +6,8 @@ import products from './data/products.json';
 
 function App() {
   return (
-    <div className="App">
-      <div className="pageWrapper">
+    <div id="App">
+      <div id="pageWrapper">
         <Header></Header>
         <ProductListContainer></ProductListContainer>
       </div>
