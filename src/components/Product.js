@@ -12,7 +12,12 @@ function Product({name, price, description, icon, alt})
 {
     return (
         <div className="product">
-            <img src={icon} alt={alt}></img>
+            <img
+                // process.env.PUBLIC_URL used to allow images to render properly on both
+                // production and deployment builds
+                src={process.env.PUBLIC_URL + icon}
+                alt={alt}
+            />
             <h2>{name}</h2>
             <h3>{price}</h3>
             <p>{description}</p>
