@@ -89,10 +89,10 @@ body{
         background-color: #F6F1F1;
     }
 
-#pageContent article p{
+#pageWrapper article p{
     margin-bottom: 10px;
 }
-#pageContent article{
+#pageWrapper article{
     max-width: 450px;
     margin: auto;
 }
