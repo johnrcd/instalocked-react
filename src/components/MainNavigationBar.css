@@ -1,0 +1,41 @@
+.topNavigationBar{
+    width:100%;
+    margin: 6px 0px;
+}
+    .topNavigationBar ul{
+        background: rgb(184, 208, 221);
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .topNavigationBar ul li a{
+        color: #000000;
+        padding: 0px 10px;
+    }
+    .topNavigationBar ul li a:link, .topNavigationBar ul li a:visited{
+        color: #000000;
+    }
+    .topNavigationBar ul li a:hover{
+        background-color: #F6F1F1;
+    }
+
+    .footerNav ul{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+    }
+    .footerNav ul li a{
+        color: #000000;
+        padding: 5px 5px;
+        font-size: 16px;
+        text-align:center;
+    }
+    .footerNav ul li a:link, #mainNav ul li a:visited{
+        color: #000000;
+    }
+    .footerNav ul li a:active{
+        background-color:#dfeeef;
+    }
+    .footerNav ul li a:hover{
+        text-decoration:underline;
+    }

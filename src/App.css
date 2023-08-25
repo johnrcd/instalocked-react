@@ -56,7 +56,6 @@ body{
     background-color: #F6F1F1;
 }
 
-*/
 .banner{
     display: flex;
     align-items: center;
@@ -141,11 +140,11 @@ input:focus, textarea:focus{
     color: #F6F1F1;
 }
 
-/*
+
 footer{
     
 }
-*/
+
     footer p{
         color: #000000;
         font-size: 11px;
@@ -153,11 +152,11 @@ footer{
         padding: 5px;
         text-align:center;
     }
-/*
+
 #footerNav{
 
 }
-*/
+
     #footerNav ul{
         display: flex;
         flex-flow: row wrap;
@@ -179,7 +178,6 @@ footer{
         text-decoration:underline;
     }
 
-/* for small screens */
 @media (max-width: 810px){
     .product{
         min-height: 115px;
@@ -188,3 +186,5 @@ footer{
             max-height: 100px;
         }
 }
+
+*/

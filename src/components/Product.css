@@ -1,0 +1,31 @@
+.product{
+    border: 2px solid #146C94;
+    margin: 5px;
+    min-height: 215px;
+}
+    .product h2{
+        margin: 0;
+    }
+    .product h3{
+        margin: 0;
+    }
+    .product img{
+        border: 2px solid #19A7CE;
+        max-height: 200px;
+        max-width: auto;
+        margin: 5px;
+        float: left;
+    }
+    .product p{
+        overflow: hidden;
+    }
+
+/* for small screens */
+@media (max-width: 810px){
+    .product{
+        min-height: 115px;
+    }
+        .product img{
+            max-height: 100px;
+        }
+}

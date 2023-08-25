@@ -1,3 +1,5 @@
+import "./Banner.css";
+
 /**
  * Displays the company name and logo.
  */

@@ -1,3 +1,5 @@
+import "./Product.css";
+
 /**
  * Displays information about a product.
  * 

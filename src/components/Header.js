@@ -1,5 +1,6 @@
 import MainNavigationBar from "./MainNavigationBar";
 import Banner from "./Banner";
+import "./Header.css";
 
 /**
  * Displays the header of the site, including the title, logo, and main navigation bar.

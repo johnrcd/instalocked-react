@@ -1,4 +1,5 @@
 import Product from './Product.js';
+import "./ProductList.css";
 
 /**
  * Generates an unordered list of products.

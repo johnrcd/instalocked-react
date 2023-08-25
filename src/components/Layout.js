@@ -13,9 +13,9 @@ function Layout (content) {
     return (
         <div className="defaultLayout">
             <Header/>
-            <div className="content">
-                {content.children}
-            </div>
+                <div className="content">
+                    {content.children}
+                </div>
             <Footer />
         </div>
     );

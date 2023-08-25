@@ -1,0 +1,28 @@
+.pageFooter p{
+    color: #000000;
+    font-size: 11px;
+    margin: auto;
+    padding: 5px;
+    text-align:center;
+}
+
+.footerNav ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.footerNav ul li a{
+    color: #000000;
+    padding: 5px 5px;
+    font-size: 16px;
+    text-align:center;
+}
+.footerNav ul li a:link, #mainNav ul li a:visited{
+    color: #000000;
+}
+.footerNav ul li a:active{
+    background-color:#dfeeef;
+}
+.footerNav ul li a:hover{
+    text-decoration:underline;
+}
