@@ -9,8 +9,9 @@ import "./Layout.css";
  * @param {ReactElement} content The content to display on the page.
  */
 function Layout (content) {
+    console.log(content);
     return (
-        <div class="defaultLayout">
+        <div className="defaultLayout">
             <Header/>
             <div className="content">
                 {content.children}

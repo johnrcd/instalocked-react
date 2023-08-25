@@ -25,7 +25,6 @@ p, li, h1, h2, h3, legend
 {
 	font-family: Verdana, Geneva, Tahoma, sans-serif
 }
-/* Force font sizes */
 h1{
     font-size: 32px;
 }
@@ -58,7 +57,6 @@ body{
 }
 
 */
-
 .banner{
     display: flex;
     align-items: center;

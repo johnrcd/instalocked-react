@@ -1,5 +1,4 @@
-import Header from "../Header";
-import Footer from "../Footer";
+import Layout from "../Layout";
 
 /**
  * Displays the contact page.
@@ -44,7 +43,6 @@ function ContactPage(){
                     <button type="submit" id="submit">Submit</button>
                     <button type="reset" id="reset">Reset</button>
                 </ul>
-                
             </fieldset>
         </form>
     );
