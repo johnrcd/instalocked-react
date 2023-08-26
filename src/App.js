@@ -4,6 +4,7 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import HomePage from './components/pages/HomePage';
 import ProductsPage from './components/pages/ProductsPage';
 import ContactPage from './components/pages/ContactPage';
+import FormSubmitted from './components/pages/FormSubmittedPage';
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
                     <Route path="/" element={<HomePage />} />
                     <Route path="/products" element={<ProductsPage />} />
                     <Route path="/contact" element={<ContactPage />} />
+                    <Route path="/formSubmitted" element={<FormSubmitted />} />
                 </Routes>
             </HashRouter>
         </div>
