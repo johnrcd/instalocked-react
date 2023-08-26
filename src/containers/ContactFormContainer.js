@@ -105,7 +105,7 @@ function ContactFormContainer(){
     return (
         <form id="contactForm" action="index.html" method="post" onSubmit={handleSubmit}>
             <fieldset>
-                <legend>Contact Information</legend>
+                <legend>Contact Us</legend>
                 <ul>
                     <li>
                         <label htmlFor="name">Name</label>

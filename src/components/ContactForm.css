@@ -7,3 +7,10 @@ input:focus, textarea:focus{
     background-color: #146C94;
     color: #F6F1F1;
 }
+
+#contactForm fieldset ul li label{
+    display: block;
+}
+#contactForm fieldset ul li textarea{
+    resize: none;
+}
