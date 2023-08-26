@@ -4,7 +4,7 @@ import Layout from "../Layout";
  * Displays the home page. This is the landing page for the site.
  */
 function HomePage(){
-    const pageContent = (
+    let pageContent = (
         <article>
             <p>
                 Hey Jett mains! Are you constantly being held back by bad team mates? Do you

@@ -58,3 +58,12 @@ body{
     border: 3px solid #146C94;
     background-color: #F6F1F1;
 }
+
+.defaultLayout article p{
+    margin-bottom: 10px;
+}
+.defaultLayout article{
+    max-width: 450px;
+    margin: auto;
+}
+    

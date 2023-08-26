@@ -8,13 +8,15 @@ import "./Layout.css";
  * 
  * @param {ReactElement} content The content to display on the page.
  */
-function Layout (content) {
-    console.log(content);
+
+// if i remove the curly brackets and instead use content.children it breaks
+// i don't really get it but because of that i'm keeping it like this
+function Layout ({content}) {
     return (
         <div className="defaultLayout">
             <Header/>
                 <div className="content">
-                    {content.children}
+                    {content}
                 </div>
             <Footer />
         </div>
