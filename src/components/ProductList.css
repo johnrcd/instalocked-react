@@ -1,0 +1,5 @@
+.productList{
+    list-style-position:outside;
+    max-width:650px;
+    margin: auto;
+}

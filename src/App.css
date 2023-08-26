@@ -1,3 +1,4 @@
+/*
 html,
 body,
 section,
@@ -24,7 +25,6 @@ p, li, h1, h2, h3, legend
 {
 	font-family: Verdana, Geneva, Tahoma, sans-serif
 }
-/* Force font sizes */
 h1{
     font-size: 32px;
 }
@@ -89,10 +89,10 @@ body{
         background-color: #F6F1F1;
     }
 
-#pageContent article p{
+#pageWrapper article p{
     margin-bottom: 10px;
 }
-#pageContent article{
+#pageWrapper article{
     max-width: 450px;
     margin: auto;
 }
@@ -140,11 +140,11 @@ input:focus, textarea:focus{
     color: #F6F1F1;
 }
 
-/*
+
 footer{
     
 }
-*/
+
     footer p{
         color: #000000;
         font-size: 11px;
@@ -152,11 +152,11 @@ footer{
         padding: 5px;
         text-align:center;
     }
-/*
+
 #footerNav{
 
 }
-*/
+
     #footerNav ul{
         display: flex;
         flex-flow: row wrap;
@@ -178,7 +178,6 @@ footer{
         text-decoration:underline;
     }
 
-/* for small screens */
 @media (max-width: 810px){
     .product{
         min-height: 115px;
@@ -187,3 +186,5 @@ footer{
             max-height: 100px;
         }
 }
+
+*/

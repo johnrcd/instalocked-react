@@ -1,0 +1,69 @@
+html,
+body,
+section,
+p,
+header,
+nav,
+footer,
+div,
+article,
+aside,
+ol,
+ul,
+li,
+h1,
+h6,
+a{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+p, li, h1, h2, h3, legend
+{
+	font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* Force font sizes */
+h1{
+    font-size: 32px;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 16px;
+}
+p{
+    font-size: 14px;
+}
+li{
+    list-style: none;
+}
+
+body{
+    background-color: #146C94;
+    background: linear-gradient(#19A7CE 0%, #146C94 100%);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.defaultLayout{
+    max-width:810px;
+    padding: 5px;
+    margin: auto;
+    border: 3px solid #146C94;
+    background-color: #F6F1F1;
+}
+
+.defaultLayout article p{
+    margin-bottom: 10px;
+}
+.defaultLayout article{
+    max-width: 450px;
+    margin: auto;
+}
+    
