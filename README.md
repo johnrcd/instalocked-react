@@ -7,3 +7,5 @@ The app was bootstrapped with [Create React App](https://github.com/facebook/cre
 
 [React Router](https://github.com/remix-run/react-router) was used to have multiple pages.
 
+console.log("BRUH");
+
