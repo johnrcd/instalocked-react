@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/instalocked-react/static/css/main.9d77a911.css",
-    "main.js": "/instalocked-react/static/js/main.be71d0cb.js",
+    "main.css": "/instalocked-react/static/css/main.25794742.css",
+    "main.js": "/instalocked-react/static/js/main.567fc8c6.js",
     "static/js/787.dcdfbfb3.chunk.js": "/instalocked-react/static/js/787.dcdfbfb3.chunk.js",
     "index.html": "/instalocked-react/index.html",
-    "main.9d77a911.css.map": "/instalocked-react/static/css/main.9d77a911.css.map",
-    "main.be71d0cb.js.map": "/instalocked-react/static/js/main.be71d0cb.js.map",
+    "main.25794742.css.map": "/instalocked-react/static/css/main.25794742.css.map",
+    "main.567fc8c6.js.map": "/instalocked-react/static/js/main.567fc8c6.js.map",
     "787.dcdfbfb3.chunk.js.map": "/instalocked-react/static/js/787.dcdfbfb3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d77a911.css",
-    "static/js/main.be71d0cb.js"
+    "static/css/main.25794742.css",
+    "static/js/main.567fc8c6.js"
   ]
 }
