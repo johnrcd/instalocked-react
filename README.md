@@ -6,3 +6,5 @@ The original was a joke site in reference of Jett one-tricks, players of the vid
 The app was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 [React Router](https://github.com/remix-run/react-router) was used to have multiple pages.
+
+You can view the website [here!](https://johnrcd.github.io/instalocked-react/)
